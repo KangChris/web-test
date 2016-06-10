@@ -1,0 +1,39 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 100%;
+	height: 900px;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background: url(../img/BG.jpg);
+}
+#navtop {
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	    margin-right: 50px;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+.nav {
+	margin-left: 10px;
+	margin-top: 110px;
+}
+.nav img {
+	width: 70%;
+	height: auto;
+}
+.logo img{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+#line img{
+	position: absolute;
+	top: 100px;
+	left: 5px;
+}
